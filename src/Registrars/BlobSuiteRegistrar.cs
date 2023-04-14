@@ -13,15 +13,27 @@ namespace Soenneker.Blob.Suite.Registrars;
 public static class BlobSuiteRegistrar
 {
     /// <summary>
-    /// Adds all of the Azure Cosmos utilities needed for use <para/>
+    /// Adds all of the Azure Blob utilities as singletons. Use <see cref="AddBlobSuiteAsScoped"/> if you can.. it adds the utilities as scoped if possible.
     /// </summary>
-    /// <param name="services"></param>
-    public static void AddBlobSuite(this IServiceCollection services)
+    public static void AddBlobSuiteAsSingleton(this IServiceCollection services)
     {
-        services.AddBlobDownloadUtil();
-        services.AddBlobUploadUtilAsSingleton();
         services.AddBlobCopyAsSingleton();
         services.AddBlobDeleteUtilAsSingleton();
+        services.AddBlobDownloadUtil();
         services.AddBlobServiceUtilAsSingleton();
+        services.AddBlobUploadUtilAsSingleton();
+    }
+
+    /// <summary>
+    /// Adds all of the Azure Blob utilities as scoped unless they have clients that cache. <para/>
+    /// See <see cref="AddBlobSuiteAsSingleton"/> for adding them all as singletons, but you should use this one if you can.
+    /// </summary>
+    public static void AddBlobSuiteAsScoped(this IServiceCollection services)
+    {
+        services.AddBlobDownloadUtil();
+        services.AddBlobDeleteUtilAsScoped();
+        services.AddBlobCopyAsScoped();
+        services.AddBlobServiceUtilAsScoped();
+        services.AddBlobUploadUtilAsScoped();
     }
 }
