@@ -39,14 +39,14 @@
 
         <PackageReference Include="Microsoft.SourceLink.GitHub" Version="1.1.1" PrivateAssets="All" />
 
-        <PackageReference Include="Soenneker.Blob.Copy" Version="1.0.41" />
+        <PackageReference Include="Soenneker.Blob.Copy" Version="1.0.42" />
 
         <PackageReference Include="Soenneker.Blob.Delete" Version="1.0.132" />
 
         <PackageReference Include="Soenneker.Blob.Download" Version="1.0.148" />
 
-        <PackageReference Include="Soenneker.Blob.Service" Version="1.0.61" />
+        <PackageReference Include="Soenneker.Blob.Service" Version="1.0.63" />
 
-        <PackageReference Include="Soenneker.Blob.Upload" Version="1.0.110" />
+        <PackageReference Include="Soenneker.Blob.Upload" Version="1.0.113" />
     </ItemGroup>
 </Project>
