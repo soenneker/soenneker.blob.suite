@@ -43,7 +43,7 @@
 
         <PackageReference Include="Soenneker.Blob.Delete" Version="1.0.178" />
 
-        <PackageReference Include="Soenneker.Blob.Download" Version="1.0.196" />
+        <PackageReference Include="Soenneker.Blob.Download" Version="1.0.200" />
 
         <PackageReference Include="Soenneker.Blob.Service" Version="1.0.82" />
 
