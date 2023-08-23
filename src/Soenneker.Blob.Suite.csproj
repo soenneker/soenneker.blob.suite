@@ -47,6 +47,6 @@
 
         <PackageReference Include="Soenneker.Blob.Service" Version="1.0.84" />
 
-        <PackageReference Include="Soenneker.Blob.Upload" Version="1.0.147" />
+        <PackageReference Include="Soenneker.Blob.Upload" Version="1.0.149" />
     </ItemGroup>
 </Project>
