@@ -2,8 +2,8 @@
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "packageRules": [
     {
-      "automerge": true,
+      "automerge": true
     }
   ],
-  "prhourlylimit": 0
+  "prHourlyLimit": 0
 }
