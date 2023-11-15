@@ -3,7 +3,7 @@
   "packageRules": [
     {
       "automerge": true,
-      "prhourlylimit": 0
     }
-  ]
+  ],
+  "prhourlylimit": 0
 }
