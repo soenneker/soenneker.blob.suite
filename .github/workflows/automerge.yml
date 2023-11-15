@@ -6,7 +6,7 @@ permissions:
   pull-requests: write
 
 env:
-  GH_TOKEN: ${{ secrets.DEPENDABOT }}
+  GH_TOKEN: ${{ secrets.RENOVATEBOT }}
 
 jobs:
   dependabot:
