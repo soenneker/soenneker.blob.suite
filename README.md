@@ -8,5 +8,5 @@
 ## Installation
 
 ```
-Install-Package Soenneker.Blob.Suite
+dotnet add package Soenneker.Blob.Suite
 ```
