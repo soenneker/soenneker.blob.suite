@@ -15,15 +15,15 @@ public static class BlobSuiteRegistrar
     public static void AddBlobSuiteAsSingleton(this IServiceCollection services)
     {
         services.AddBlobCopyAsSingleton();
-        services.AddBlobDeleteUtilAsScoped();
-        services.AddBlobDownloadUtil();
+        services.AddBlobDeleteUtilAsSingleton();
+        services.AddBlobDownloadUtilAsSingleton();
         services.AddBlobServiceUtilAsSingleton();
         services.AddBlobUploadUtilAsSingleton();
     }
 
     public static void AddBlobSuiteAsScoped(this IServiceCollection services)
     {
-        services.AddBlobDownloadUtil();
+        services.AddBlobDownloadUtilAsScoped();
         services.AddBlobDeleteUtilAsScoped();
         services.AddBlobCopyAsScoped();
         services.AddBlobServiceUtilAsScoped();
