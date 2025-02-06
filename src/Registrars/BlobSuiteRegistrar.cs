@@ -12,21 +12,25 @@ namespace Soenneker.Blob.Suite.Registrars;
 /// </summary>
 public static class BlobSuiteRegistrar
 {
-    public static void AddBlobSuiteAsSingleton(this IServiceCollection services)
+    public static IServiceCollection AddBlobSuiteAsSingleton(this IServiceCollection services)
     {
-        services.AddBlobCopyAsSingleton();
-        services.AddBlobDeleteUtilAsSingleton();
-        services.AddBlobDownloadUtilAsSingleton();
-        services.AddBlobServiceUtilAsSingleton();
-        services.AddBlobUploadUtilAsSingleton();
+        services.AddBlobCopyAsSingleton()
+                .AddBlobDeleteUtilAsSingleton()
+                .AddBlobDownloadUtilAsSingleton()
+                .AddBlobServiceUtilAsSingleton()
+                .AddBlobUploadUtilAsSingleton();
+
+        return services;
     }
 
-    public static void AddBlobSuiteAsScoped(this IServiceCollection services)
+    public static IServiceCollection AddBlobSuiteAsScoped(this IServiceCollection services)
     {
-        services.AddBlobDownloadUtilAsScoped();
-        services.AddBlobDeleteUtilAsScoped();
-        services.AddBlobCopyAsScoped();
-        services.AddBlobServiceUtilAsScoped();
-        services.AddBlobUploadUtilAsScoped();
+        services.AddBlobDownloadUtilAsScoped()
+                .AddBlobDeleteUtilAsScoped()
+                .AddBlobCopyAsScoped()
+                .AddBlobServiceUtilAsScoped()
+                .AddBlobUploadUtilAsScoped();
+
+        return services;
     }
 }

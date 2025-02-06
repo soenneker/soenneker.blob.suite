@@ -39,14 +39,14 @@
 
         
 
-        <PackageReference Include="Soenneker.Blob.Copy" Version="3.0.796" />
+        <PackageReference Include="Soenneker.Blob.Copy" Version="3.0.797" />
 
-        <PackageReference Include="Soenneker.Blob.Delete" Version="3.0.2083" />
+        <PackageReference Include="Soenneker.Blob.Delete" Version="3.0.2086" />
 
-        <PackageReference Include="Soenneker.Blob.Download" Version="3.0.2478" />
+        <PackageReference Include="Soenneker.Blob.Download" Version="3.0.2481" />
 
-        <PackageReference Include="Soenneker.Blob.Service" Version="3.0.1791" />
+        <PackageReference Include="Soenneker.Blob.Service" Version="3.0.1794" />
 
-        <PackageReference Include="Soenneker.Blob.Upload" Version="3.0.2286" />
+        <PackageReference Include="Soenneker.Blob.Upload" Version="3.0.2288" />
     </ItemGroup>
 </Project>
