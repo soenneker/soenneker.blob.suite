@@ -39,7 +39,7 @@
         <None Include="..\..\README.md" Pack="true" PackagePath="\" />
         <None Include="..\..\LICENSE" Pack="true" PackagePath="\" />
         <None Include="..\..\icon.png" Pack="true" PackagePath="\" />
-        <PackageReference Include="Soenneker.Blob.Copy" Version="4.0.1045" />
+        <PackageReference Include="Soenneker.Blob.Copy" Version="4.0.1048" />
         <PackageReference Include="Soenneker.Blob.Delete" Version="4.0.2903" />
         <PackageReference Include="Soenneker.Blob.Download" Version="4.0.3368" />
         <PackageReference Include="Soenneker.Blob.Service" Version="4.0.2437" />
