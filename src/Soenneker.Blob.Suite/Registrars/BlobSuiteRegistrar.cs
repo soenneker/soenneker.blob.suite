@@ -12,6 +12,11 @@ namespace Soenneker.Blob.Suite.Registrars;
 /// </summary>
 public static class BlobSuiteRegistrar
 {
+    /// <summary>
+    /// Adds blob suite as singleton.
+    /// </summary>
+    /// <param name="services">The service collection.</param>
+    /// <returns>The result of the operation.</returns>
     public static IServiceCollection AddBlobSuiteAsSingleton(this IServiceCollection services)
     {
         services.AddBlobCopyAsSingleton()
@@ -23,6 +28,11 @@ public static class BlobSuiteRegistrar
         return services;
     }
 
+    /// <summary>
+    /// Adds blob suite as scoped.
+    /// </summary>
+    /// <param name="services">The service collection.</param>
+    /// <returns>The result of the operation.</returns>
     public static IServiceCollection AddBlobSuiteAsScoped(this IServiceCollection services)
     {
         services.AddBlobDownloadUtilAsScoped()
