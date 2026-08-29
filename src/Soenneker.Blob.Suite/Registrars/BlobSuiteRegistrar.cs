@@ -13,10 +13,10 @@ namespace Soenneker.Blob.Suite.Registrars;
 public static class BlobSuiteRegistrar
 {
     /// <summary>
-    /// Adds blob suite as singleton.
+    /// Registers Blob Suite with a singleton lifetime.
     /// </summary>
-    /// <param name="services">The service collection.</param>
-    /// <returns>The result of the operation.</returns>
+    /// <param name="services">Service collection that receives the registration.</param>
+    /// <returns>The same service collection, so additional registrations can be chained.</returns>
     public static IServiceCollection AddBlobSuiteAsSingleton(this IServiceCollection services)
     {
         services.AddBlobCopyAsSingleton()
@@ -29,10 +29,10 @@ public static class BlobSuiteRegistrar
     }
 
     /// <summary>
-    /// Adds blob suite as scoped.
+    /// Registers Blob Suite with a scoped lifetime.
     /// </summary>
-    /// <param name="services">The service collection.</param>
-    /// <returns>The result of the operation.</returns>
+    /// <param name="services">Service collection that receives the registration.</param>
+    /// <returns>The same service collection, so additional registrations can be chained.</returns>
     public static IServiceCollection AddBlobSuiteAsScoped(this IServiceCollection services)
     {
         services.AddBlobDownloadUtilAsScoped()
