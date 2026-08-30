@@ -8,7 +8,7 @@ using Soenneker.Blob.Upload.Registrars;
 namespace Soenneker.Blob.Suite.Registrars;
 
 /// <summary>
-/// A concoction of Azure Blob Storage utilities and libraries
+/// Registers the Blob copy, delete, download, service, and upload utilities together.
 /// </summary>
 public static class BlobSuiteRegistrar
 {
