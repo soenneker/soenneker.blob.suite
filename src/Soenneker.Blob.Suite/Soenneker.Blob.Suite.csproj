@@ -40,9 +40,9 @@
         <None Include="..\..\LICENSE" Pack="true" PackagePath="\" />
         <None Include="..\..\icon.png" Pack="true" PackagePath="\" />
         <PackageReference Include="Soenneker.Blob.Copy" Version="4.0.1089" />
-        <PackageReference Include="Soenneker.Blob.Delete" Version="4.0.3066" />
-        <PackageReference Include="Soenneker.Blob.Download" Version="4.0.3593" />
+        <PackageReference Include="Soenneker.Blob.Delete" Version="4.0.3067" />
+        <PackageReference Include="Soenneker.Blob.Download" Version="4.0.3594" />
         <PackageReference Include="Soenneker.Blob.Service" Version="4.0.2584" />
-        <PackageReference Include="Soenneker.Blob.Upload" Version="4.0.3246" />
+        <PackageReference Include="Soenneker.Blob.Upload" Version="4.0.3247" />
     </ItemGroup>
 </Project>
