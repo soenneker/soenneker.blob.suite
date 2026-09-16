@@ -41,7 +41,7 @@
         <None Include="..\..\icon.png" Pack="true" PackagePath="\" />
         <PackageReference Include="Soenneker.Blob.Copy" Version="4.0.1097" />
         <PackageReference Include="Soenneker.Blob.Delete" Version="4.0.3090" />
-        <PackageReference Include="Soenneker.Blob.Download" Version="4.0.3625" />
+        <PackageReference Include="Soenneker.Blob.Download" Version="4.0.3626" />
         <PackageReference Include="Soenneker.Blob.Service" Version="4.0.2601" />
         <PackageReference Include="Soenneker.Blob.Upload" Version="4.0.3266" />
     </ItemGroup>
