@@ -40,10 +40,10 @@
         <None Include="..\..\README.md" Pack="true" PackagePath="\" />
         <None Include="..\..\LICENSE" Pack="true" PackagePath="\" />
         <None Include="..\..\icon.png" Pack="true" PackagePath="\" />
-        <PackageReference Include="Soenneker.Blob.Copy" Version="4.0.1108" />
-        <PackageReference Include="Soenneker.Blob.Delete" Version="4.0.3129" />
-        <PackageReference Include="Soenneker.Blob.Download" Version="4.0.3665" />
-        <PackageReference Include="Soenneker.Blob.Service" Version="4.0.2624" />
-        <PackageReference Include="Soenneker.Blob.Upload" Version="4.0.3296" />
+        <PackageReference Include="Soenneker.Blob.Copy" Version="4.0.1109" />
+        <PackageReference Include="Soenneker.Blob.Delete" Version="4.0.3130" />
+        <PackageReference Include="Soenneker.Blob.Download" Version="4.0.3666" />
+        <PackageReference Include="Soenneker.Blob.Service" Version="4.0.2625" />
+        <PackageReference Include="Soenneker.Blob.Upload" Version="4.0.3297" />
     </ItemGroup>
 </Project>
