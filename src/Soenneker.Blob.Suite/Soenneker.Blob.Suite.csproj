@@ -1,6 +1,6 @@
 <Project Sdk="Microsoft.NET.Sdk">
     <PropertyGroup>
-        <TargetFramework>net10.0</TargetFramework>
+        <TargetFramework>net11.0</TargetFramework>
         <IsAotCompatible>true</IsAotCompatible>
         <Nullable>enable</Nullable>
         <Platforms>AnyCPU</Platforms>
@@ -9,7 +9,7 @@
 
     <PropertyGroup>
         <Description>A concoction of Azure Blob Storage utilities and libraries</Description>
-        <Version Condition="'$(BUILD_VERSION)' == ''">4.0.0</Version>
+        <Version Condition="'$(BUILD_VERSION)' == ''">11.0.0</Version>
         <Version Condition="'$(BUILD_VERSION)' != ''">$(BUILD_VERSION)</Version>
         <AssemblyName>Soenneker.Blob.Suite</AssemblyName>
         <PackageId>Soenneker.Blob.Suite</PackageId>
@@ -40,10 +40,10 @@
         <None Include="..\..\README.md" Pack="true" PackagePath="\" />
         <None Include="..\..\LICENSE" Pack="true" PackagePath="\" />
         <None Include="..\..\icon.png" Pack="true" PackagePath="\" />
-        <PackageReference Include="Soenneker.Blob.Copy" Version="4.0.1126" />
+        <PackageReference Include="Soenneker.Blob.Copy" Version="4.0.1127" />
         <PackageReference Include="Soenneker.Blob.Delete" Version="4.0.3151" />
         <PackageReference Include="Soenneker.Blob.Download" Version="4.0.3685" />
-        <PackageReference Include="Soenneker.Blob.Service" Version="4.0.2643" />
+        <PackageReference Include="Soenneker.Blob.Service" Version="4.0.2644" />
         <PackageReference Include="Soenneker.Blob.Upload" Version="4.0.3317" />
     </ItemGroup>
 </Project>
